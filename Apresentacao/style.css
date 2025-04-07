@@ -1,5 +1,7 @@
 * {
-    margin: 20px 0 0 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,6 +12,7 @@ body {
 
 h1 {
     text-align: center;
+    margin: 20px 0;
 }
 
 div {
@@ -17,6 +20,7 @@ div {
 }
 
 img {
+    margin: 20px 0;
     max-width: 100%;
     height: auto;
 }
@@ -26,6 +30,7 @@ main p {
 }
 
 footer {
+    margin: 20px 0;
     text-align: center;
     font-size: 0.8em;
 }
