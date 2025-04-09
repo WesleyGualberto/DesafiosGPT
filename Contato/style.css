@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    color: rgba(43, 42, 42, 0.925);
+    background-color: rgba(248, 238, 225, 0.712);
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+header h1 {
+    margin: 20px 0;
+}
+
+header p {
+    margin-bottom: 20px;
+}
+
+#contato {
+    max-width: 600px;
+    margin: 0 auto;
+
+
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 0.1fr 0.5fr;    
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(202, 202, 202, 0.788);
+    border-radius: 10px;
+}
+
+label {
+    font-weight: normal;
+    margin: 10px 10px;
+}
+
+input {
+    width: 400px;
+}
+
+.foco:focus {
+    border: 2px solid rgba(34, 34, 34, 0.582);
+    outline: none;
+    background-color: #fffce0;
+}
+
+select {
+    width: 100px
+}
+
+#mensagem {
+    padding: 20px;
+}
+
+.enviar {
+    background-color: rgba(34, 34, 34, 0.904);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(34, 34, 34) ;
+    margin: 20px;
+    width: 75px;
+}
+
+.enviar:hover {
+    background-color: rgb(34, 34, 34);
+}
