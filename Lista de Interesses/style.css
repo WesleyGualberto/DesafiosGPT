@@ -39,9 +39,25 @@ ul li {
 }
 
 img {
+    display: block;
+    margin: 0 auto;
     height: 250px;
     width: 250px;
+
+    border-radius: 10px;
+    box-shadow: 0, 0, 0, rgba(1, 1, 1, 0.466);
 }
 
+a {
+    text-decoration: none;
+    color: rgb(58, 113, 233);
+    transition: 1s;
+}
+
+a:hover {
+    color: rgb(0, 78, 245);
+    text-decoration: underline;
+    transition: 1s;
+}
 
 
