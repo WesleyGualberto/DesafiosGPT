@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin: 20px 0;
+}
+
+#servicos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    text-align: center;
+
+    width: 90%;
+    margin: 50px auto;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.card img {
+    height: auto;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card ul {
+    text-align: left;
+    list-style-position: inside;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 50px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(55, 154, 241);
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(21, 142, 248);
+}
