@@ -22,6 +22,7 @@ h1, h2, p {
     text-align: center;
     margin-left: 20px;
     padding: 0;
+    list-style-position: inside;
 }
 
 .lista li {
