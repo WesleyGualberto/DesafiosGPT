@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 0.9em;
+
+    color: rgb(44, 44, 44);
+    background-color: rgba(255, 255, 255, 0.733);
 }
 
 header {
@@ -10,6 +21,7 @@ header {
 
 header h1 {
     margin: 20px 0;
+    font-size: 35px;
 }
 
 #servicos{
@@ -24,17 +36,32 @@ header h1 {
 }
 
 .card {
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgba(0, 0, 0, 0.158);
-    border-radius: 10px;
     padding: 10px;
     margin-left: 10px;
+
+    background-color: rgba(255, 255, 255, 0.274);
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.158);
+
+    transition: 0.8s;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.349);
+
+    transform: scale(1.01);
+    transition: 0.5s;
+
 }
 
 .card img {
     height: auto;
     width: 250px;
     border-radius: 10px;
+
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.075);
 }
 
 .card h3 {
@@ -51,6 +78,7 @@ header h1 {
     margin-top: 10px;
 }
 
+
 footer {
     text-align: center;
     margin: 50px 0;
@@ -58,10 +86,15 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: rgb(55, 154, 241);
+    color: rgb(37, 37, 37);
+    font-weight: 400;
+
+    transition: 1s;
 }
 
 footer a:hover {
     text-decoration: underline;
-    color: rgb(21, 142, 248);
+    color: rgb(26, 25, 25);
+
+    transition: 1s;
 }
