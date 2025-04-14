@@ -37,6 +37,7 @@ header p {
 
     background-color: rgba(202, 202, 202, 0.788);
     border-radius: 10px;
+    margin: 10px 20px;
 }
 
 label {
@@ -62,15 +63,56 @@ select {
     padding: 20px;
 }
 
+.msg::before {
+    content: "💬";
+}
+
 .enviar {
     background-color: rgba(34, 34, 34, 0.904);
     color: white;
     border-radius: 5px;
-    border: 1px solid rgb(34, 34, 34) ;
+    border: solid 1px rgb(34, 34, 34) ;
     margin: 20px;
     width: 75px;
+
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.247);
 }
 
 .enviar:hover {
+    transform: scale(1.05);
     background-color: rgb(34, 34, 34);
+    transition: 0.5s;
+}
+
+footer {
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    font-weight: 400;
+    transition: 0.2s;
+}
+
+a:hover {
+    font-weight: 500;
+}
+
+@media (max-width: 767px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    input {
+        width: 300px;
+    }
+    
+
+
 }
